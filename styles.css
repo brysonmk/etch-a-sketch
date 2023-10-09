@@ -1,0 +1,60 @@
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #aec6eb, #e96b6b);
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.main_header{
+    text-align: center;
+}
+
+.change-squares{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.drawpad{
+    border: 1px solid black;
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 10px;
+}
+.create-grid-button {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+}
